@@ -1,17 +1,16 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%> <!-- 추가할부분 -->
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
-<%@ page session="false" %>
+<%--
+  Created by IntelliJ IDEA.
+  User: sungbo
+  Date: 2023-06-25
+  Time: 오전 8:27
+  To change this template use File | Settings | File Templates.
+--%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-<head>
-  <meta charset="UTF-8"> <!-- 추가할부분 -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- 추가할부분 -->
-  <meta http-equiv="X-UA-Compatible" content="ie=edge"> <!-- 추가할부분 -->
-  <title>Home</title>
-</head>
-<body>
-<h1>
-  Hello world!
-</h1>
-<P>  The time on the server is ${serverTime}. </P>
-</body>
+  <head>
+    <title>sp5</title>
+  </head>
+  <body>
+  <H1>Spring Server Send Event Test</H1>
+  </body>
 </html>
