@@ -40,4 +40,5 @@ public class SseController2 {
         }
         return ResponseEntity.ok(emitter);
     }
+
 }
